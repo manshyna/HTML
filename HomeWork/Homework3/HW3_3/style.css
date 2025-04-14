@@ -1,4 +1,8 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;}
 
 section{ height: 100vh;
     display: flex;
@@ -8,11 +12,16 @@ section{ height: 100vh;
     gap: 30px;
     padding: 50px;
     font-size: 20px;}
+section p{
+    text-align: center}
 
-div a{color: black}
+span a{
+    color: black;
+    font-size: 30px;}
 
-#red {background-color: #f85a5a
-}
-
-#blue {background-color: lightskyblue}
-#green {background-color: lightgreen}
+#red {
+    background-color: #f85a5a}
+#blue {
+    background-color: lightskyblue}
+#green {
+    background-color: lightgreen}
