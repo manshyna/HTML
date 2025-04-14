@@ -1,0 +1,28 @@
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+text-decoration: none;
+list-style-type: none;
+   }
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+header div{ text-align: center;
+ }
+header h3{ font-size: 16px;
+}
+header nav ul{
+    display: flex;
+   gap: 20px;
+}
+header nav a{ color: dimgray;
+font-size: 20px;}
+
+main{height: 90vh;
+    background-image: url("https://plus.unsplash.com/premium_photo-1669613233557-1676c121fe73?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-size: cover;}
