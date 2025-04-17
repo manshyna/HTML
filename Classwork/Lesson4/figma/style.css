@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{ height: 22vh;
+    width: 100%;
+background-color: lightskyblue}
+main {height: 54vh;
+width: 100%;
+background-color: aquamarine}
+
