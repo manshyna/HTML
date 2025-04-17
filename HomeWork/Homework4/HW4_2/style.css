@@ -1,0 +1,31 @@
+
+*{margin: 0;padding: 0;}
+p{font-family: "Inter", sans-serif;
+    font-size: 45px;
+    color: #FFFFFF;}
+header{
+    height: 20vh;
+    width:100%;
+    background: #8D8484;}
+footer{
+    height: 20vh;
+    width:100%;
+    background: #BDBDBD;}
+main, footer, header,section{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.content1{
+    height: 20vh; width:73vw;
+    background: #776969;}
+.content2{
+    height: 20vh; width:73vw;
+    background: #643030;}
+.content3{
+    height: 20vh; width:73vw;
+    background: #441818;}
+.spam1 {height: 30vh; width:27vw; background: #937575;}
+.spam2 {height: 30vh; width:27vw; background: #644C4C;}
+
+
+
