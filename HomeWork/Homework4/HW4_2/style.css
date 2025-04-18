@@ -1,8 +1,8 @@
 
 *{margin: 0;padding: 0;}
 p{font-family: "Inter", sans-serif;
-    font-size: 45px;
-    color: #FFFFFF;}
+    font-size: 45px;}
+main p{color:#fff;}
 header{
     height: 20vh;
     width:100%;
