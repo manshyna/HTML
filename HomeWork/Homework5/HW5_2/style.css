@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{ background: #1E1E1E;}
+.wrap{
+       width: 1340px;
+    margin: 0 auto;
+}
+
+nav { display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+     }
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: #E9E3DC}
+h1  {color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;}
