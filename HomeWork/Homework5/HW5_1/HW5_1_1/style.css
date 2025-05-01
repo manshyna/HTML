@@ -5,28 +5,27 @@ body{
     justify-content: center;
 }
 .square{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
     background-color: #011143;
-    border-right: 50px solid #0b76e1;
-    border-left: 50px solid #b7c6fd;
-    border-bottom: 50px solid #204af1;
-    border-top: 50px solid #6676c1;
+    border-right: 30px solid #0b76e1;
+    border-left: 30px solid #b7c6fd;
+    border-bottom: 30px solid #204af1;
+    border-top: 30px solid #6676c1;
     animation: pre 8s  linear infinite alternate;
 }
 
 @keyframes pre {
-    from { transform: scale(0.5) rotate(180deg); }
+    0% { transform: scale(0.5) rotate(180deg); }
     25% { transform: translateY(200px); }
 
     50% { border-radius: 80%; background-color: #ed03c6;
-        border-right: 200px solid #2b0322;
-        border-left: 200px solid #ec5dce;
-        border-bottom: 200px solid #632c58;
-        border-top: 200px solid #f62ccc;}
-
+        border-right: 150px solid #2b0322;
+        border-left: 150px solid #ec5dce;
+        border-bottom: 150px solid #632c58;
+        border-top: 150px solid #f62ccc;}
     75%  { transform: translateY(-200px); }
-    to{
-        transform: scale(1)
-    }
+       100%{
+        transform: scale(0.5)}
 }
