@@ -1,7 +1,7 @@
 
 
 
-ul{list-style-type: none;}
+
 .first>ul>li:nth-child(even){ color: #fa56d7
 }
 .second>ul>li:nth-child(odd){ font-size: 22px}
