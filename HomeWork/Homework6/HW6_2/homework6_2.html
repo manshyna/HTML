@@ -4,12 +4,27 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-<form class="registration">
-    <label class="exit">Вхід в особистий кабінет</label>
+<div class="registration">
+    <div ><p>Вхід в особистий кабінет</p></div>
+
+   <form>
+       <input type="text" name="Login" id="Login" placeholder="Логін або e-mail">
+       <input type="password" name="password" id="password" placeholder="Пароль">
+   </form>
+
+    <div class="checkbox">
+          <label > Запам'ятати  мене
+          <input type="checkbox" name="remember">
+          </label>
+          <input type="submit" value="Вхід">
+    </div>
 
 
-</form>
+</div>
 </body>
 </html>

@@ -1,16 +1,52 @@
 
-body{ margin: 0; padding:200px ; background-color: darkcyan;
-display: flex; justify-content: center;
-align-items: center;}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  "Quicksand", sans-serif; }
+
 .registration{
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
+    width: 30vw;
+    height: 49vh;
     background-color: white;
+    border-radius: 15px;}
+
+.registration div:nth-child(1){
+    background-color: #e8fafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 25%}
+p{font-size: 30px}
+
+.registration form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;}
+input[type=text]{
+    width: 350px;
+    height: 30px;
+    margin-top: 15px}
+input[type=password]{
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 35px}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
 }
-.exit{
-    display: block;
-    width: 500px;
-    height: 100px;
-    background-color: #b0c3c3;
-    border-radius: 10px;}
+input[type=submit]{
+    width: 90px;
+    height: 25px;
+    border: 1px solid #636060;
+    border-radius: 10px;
+    background-color: #e8fafa;}
