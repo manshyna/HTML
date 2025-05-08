@@ -1,0 +1,70 @@
+*{margin: 0;
+padding: 0;}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem{
+    width: 319px;
+    height: 492px;
+    margin-top: 269px;
+    margin-bottom: 221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    position: relative;
+    z-index: -1;}
+
+h4{
+    font-size: 40px;
+    margin-bottom: 4px}
+
+.left{
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+.centre{
+    border: 4px solid #65856E;
+    background: rgba(217, 217, 217, 0.30);
+}
+.right{
+    border: 4px solid #554C4C;
+    background: rgba(217, 217, 217, 0.30);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+ }
+.cirkle{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    border: 4px solid #554C4C;}
+.chess{
+    border: 4px solid #65856E;
+}
+.battle{
+    border: 4px solid #554C4C;}
