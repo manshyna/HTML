@@ -1,0 +1,14 @@
+@media screen  and (max-width:480px) {
+    .container {
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 16px;}
+    .card{
+        width: 343px;
+        height: 220px;
+        padding-bottom: 40px;}
+}
+img{
+    width: 108px;
+    height: 108px;}

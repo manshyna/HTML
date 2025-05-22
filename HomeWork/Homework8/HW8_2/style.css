@@ -1,0 +1,36 @@
+.container{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px auto;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 271px;
+    height: 280px;
+}
+
+img{
+    width: 160px;
+    height: 160px;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #161543;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+p{
+    color: #7687A1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
