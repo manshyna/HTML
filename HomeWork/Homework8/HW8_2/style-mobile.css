@@ -3,7 +3,7 @@
         width: 100%;
         flex-direction: column;
         gap: 32px;
-        padding: 32px 16px;}
+        margin: 32px 16px;}
     .card{
         width: 343px;
         height: 220px;
