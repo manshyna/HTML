@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 75%  25%;
+    grid-template-rows: 5% 35% 25% 16% 19%;
+    grid-template-areas:
+    'header header '
+    'main top-aside'
+    'main bottom-aside'
+    'section section'
+    'footer footer';
+}
+header{
+    grid-area: header;
+    background: #D9D9D9;
+}
+main{
+    grid-area: main;
+    background: #A4A4A4;
+}
+.top-aside {
+    grid-area: top-aside;
+    background: #7F7A7A;
+}
+.bottom-aside {
+    grid-area: bottom-aside;
+    background: #615050;
+}
+section{
+    grid-area: section;
+    background: #D9D9D9;
+
+}
+footer{
+    grid-area: footer;
+    background: #AFA9A9;
+}
+
